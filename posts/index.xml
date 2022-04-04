@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Random Scribbles</title>
+    <link>https://kobaruon.github.io/posts/</link>
+    <description>Recent content in Posts on Random Scribbles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Apr 2022 20:19:12 +0300</lastBuildDate><atom:link href="https://kobaruon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PostgreSQL Connection Pooler Benchmark</title>
+      <link>https://kobaruon.github.io/posts/postgresql-connection-pooler-benchmark/</link>
+      <pubDate>Mon, 04 Apr 2022 20:19:12 +0300</pubDate>
+      
+      <guid>https://kobaruon.github.io/posts/postgresql-connection-pooler-benchmark/</guid>
+      <description>Hi everyone, I&amp;rsquo;ve tested 3 different connection poolers from community projects.
+ Pgbouncer Odyssey  Pgcat  Before I dive into test setup and test results, here is a quick rundown of their pros and cons.
+Pgbouncer    Pros Cons     It has a proven track record Single threaded   Used and well known in the team Need to start new pgbouncer instance from different ports if you want to scale    Pgcat    Pros Cons     Multi threaded New project   Load balancing Beta version   Query routing Lacks authentication method support    Odyssey    Pros Cons     Used by Yandex and their cloud service by default Documentation is sometimes hard to navigate   Multi threaded    Can give database and user specific pool settings     Test setup</description>
+    </item>
+    
+  </channel>
+</rss>
