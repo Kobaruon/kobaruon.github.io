@@ -1,0 +1,79 @@
+baseURL: https://kobaruon.github.io
+languageCode: en-us
+title: Random Scribbles
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableInlineShortcodes: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+googleAnalytics: G-9DYG4R416J
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Random Scribbles
+  description: "Posts about tech"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Alper
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2 January 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Posts about tech
+
+  profileMode:
+    enabled: false # needs to be explicitly set
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/alper-ciftci-62443b170/"
+    - name: github
+      url: "https://github.com/Kobaruon"
+
+  outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
